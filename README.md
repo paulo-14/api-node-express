@@ -2,6 +2,8 @@
 - O que é node.js?
 - Para que serve o npm?
 - Para que serve o nodemon?
+- O que é uma API?
+- Para que serve o Framework Express?
 
 # Comandos
 
