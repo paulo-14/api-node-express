@@ -1,0 +1,75 @@
+{
+    "_id": "d1cf25f4-4133-458d-8dc9-d4683e096a31",
+    "colName": "product",
+    "created": "2023-08-09T00:25:10.437Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "aa68bf7a-e932-457e-9222-b84a25aef9c3",
+            "colId": "d1cf25f4-4133-458d-8dc9-d4683e096a31",
+            "containerId": "",
+            "name": "/product",
+            "url": "http://10.10.204.6:3000/product",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-09T00:25:10.444Z",
+            "modified": "2023-08-09T00:25:10.444Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b39203da-3489-4bf4-8e23-311a72d4f55f",
+            "colId": "d1cf25f4-4133-458d-8dc9-d4683e096a31",
+            "containerId": "",
+            "name": "/product",
+            "url": "http://10.10.204.6:3000/product",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-09T00:25:24.437Z",
+            "modified": "2023-08-09T01:19:08.840Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Caneta Azul\",\n  \"valor\": \"R$ 2,00\",\n  \"marca\": \"BIC\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dffd578b-d4e0-49a9-9987-24be3b24b050",
+            "colId": "d1cf25f4-4133-458d-8dc9-d4683e096a31",
+            "containerId": "",
+            "name": "/product",
+            "url": "http://10.10.204.6:3000/product",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-08-09T00:25:37.053Z",
+            "modified": "2023-08-09T01:19:30.725Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Caneta Azul\",\n  \"valor\": \"R$ 3,00\",\n  \"marca\": \"BIC\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "348850d2-94b6-4881-87c0-e3013e7ceb52",
+            "colId": "d1cf25f4-4133-458d-8dc9-d4683e096a31",
+            "containerId": "",
+            "name": "/product",
+            "url": "http://10.10.204.6:3000/product",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-08-09T00:25:57.101Z",
+            "modified": "2023-08-09T00:25:57.101Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

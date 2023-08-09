@@ -1,0 +1,75 @@
+{
+    "_id": "2694edf2-b13a-465b-a223-dd566276e747",
+    "colName": "user",
+    "created": "2023-08-09T00:20:24.517Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5e81692b-c8d4-4501-8c39-c772140d8f00",
+            "colId": "2694edf2-b13a-465b-a223-dd566276e747",
+            "containerId": "",
+            "name": "/user",
+            "url": "http://10.10.204.6:3000/user",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-09T00:20:24.523Z",
+            "modified": "2023-08-09T00:20:24.523Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5c0a97c1-f24d-485d-9a8f-80997a454399",
+            "colId": "2694edf2-b13a-465b-a223-dd566276e747",
+            "containerId": "",
+            "name": "/user",
+            "url": "http://10.10.204.6:3000/user",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-09T00:21:18.133Z",
+            "modified": "2023-08-09T01:04:03.265Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Paulo Ricardo\",\n  \"idade\": 20,\n  \"email\": \"pauloricardo.leite@hotmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3b0c6e0f-490e-45f3-ae0b-00ae70d3b138",
+            "colId": "2694edf2-b13a-465b-a223-dd566276e747",
+            "containerId": "",
+            "name": "/user",
+            "url": "http://10.10.204.6:3000/user",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-08-09T00:22:21.141Z",
+            "modified": "2023-08-09T01:13:04.810Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Paulo Ricardo\",\n  \"idade\": 21,\n  \"email\": \"pauloricardo.leite@hotmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b99930f-a026-4525-84c7-25afd3948085",
+            "colId": "2694edf2-b13a-465b-a223-dd566276e747",
+            "containerId": "",
+            "name": "/user",
+            "url": "http://10.10.204.6:3000/user",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-08-09T00:22:34.566Z",
+            "modified": "2023-08-09T00:22:34.566Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
