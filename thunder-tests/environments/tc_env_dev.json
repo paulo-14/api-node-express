@@ -1,0 +1,14 @@
+{
+    "_id": "67aacadf-abf7-47a1-bdac-62a249dc479b",
+    "name": "dev",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-08-15T23:06:20.860Z",
+    "modified": "2023-08-15T23:06:20.860Z",
+    "data": [
+        {
+            "name": "host",
+            "value": "http://10.10.204.6:3000"
+        }
+    ]
+}
