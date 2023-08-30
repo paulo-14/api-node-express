@@ -6,6 +6,10 @@
 - O que é uma API RESTfull?
 - Para que serve o Framework Express?
 - O que é o Padrão de Projeto Middleware?
+- O que é o Padrão de Projeto MVC?
+- Qual a responsabilidade do Model no MVC?
+- Qual a responsabilidade do View no MVC?
+- Qual a responsabilidade do Controller no MVC?
 
 # Comandos
 
