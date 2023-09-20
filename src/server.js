@@ -1,5 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
+import cors from 'cors'
 
 import {PORT} from './config.js'
 import logger from './middlewares/logger.js'
@@ -12,6 +13,7 @@ const api = express()
 
 //middlewares
 api.use(logger)
+api.use(cors())
 api.use(bodyParser.json())
 
 api.get('/', (req, res) => {
