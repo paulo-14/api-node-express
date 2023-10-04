@@ -42,19 +42,19 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
   `email` varchar(500) NOT NULL,
-  `pass` varchar(256) NOT NULL
+  `pass` varchar(256) NOT NULL,
+  `photo` varchar(600) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `pass`) VALUES
-(1, 'Paulo', 'paulo@gmail.com', 'minha senha real'),
-(2, 'Carlos', 'carlos@gmail.com', '987654321'),
-(3, 'Laura', 'laura@hotmail.com', '12345677'),
-(5, 'Laura', 'laura@hotmail.com', '12345677'),
-(6, 'Leandro', 'leandro@gmail.com', 'leandro123');
+INSERT INTO `users` (`id`, `name`, `email`, `pass`, `photo`) VALUES
+(1, 'Paulo', 'paulo@gmail.com', 'minha senha real', 'https://static.vecteezy.com/ti/vetor-gratis/p3/3715527-imagem-perfil-icone-masculino-icone-humano-ou-pessoa-sinal-e-simbolo-vetor.jpg'),
+(2, 'Carlos', 'carlos@gmail.com', '987654321', 'https://cdn-icons-png.flaticon.com/256/21/21294.png'),
+(3, 'Laura', 'laura@hotmail.com', '12345677', 'https://img.myloview.com.br/adesivos/vetor-de-icone-de-perfil-masculino-usuario-pessoa-avatar-simbolo-na-ilustracao-de-pictograma-de-glifo-de-cor-lisa-700-121123324.jpg'),
+(6, 'Leandro', 'leandro@gmail.com', 'leandro123', 'https://cdn-icons-png.flaticon.com/512/4645/4645949.png');
 
 --
 -- Índices para tabelas despejadas
@@ -86,7 +86,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
